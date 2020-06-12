@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form for age</title>
+  </head>
+  <body>
+    <center>
+      <h4>age form</h4>
+      <form action="/email">
+        {{age_f}}
+        {% csrf_token %}
+        <button type="submit" name="next">next</button>
+      </form>
+  </body>
+</html>

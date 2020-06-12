@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form for email</title>
+  </head>
+  <body>
+    <center>
+      <h4>email form</h4>
+      <form action="/info">
+        {{email_f}}
+        {% csrf_token %}
+        <button type="submit" name="next">next</button>
+      </form>
+  </body>
+</html>
